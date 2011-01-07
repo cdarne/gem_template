@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   
   # If you have development dependencies, add them here
   # s.add_development_dependency "another", "= 0.9"
+  s.add_development_dependency "rspec"
 
   # The list of files to be contained in the gem
   s.files         = `git ls-files`.split("\n")
